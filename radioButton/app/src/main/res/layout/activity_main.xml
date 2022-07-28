@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25sp"
+    android:background="#2535EC"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_margin="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is your Gender ??"
+        android:textSize="30sp"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/maleID"
+            android:layout_margin="5sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            />
+
+        <RadioButton
+            android:id="@+id/femaleID"
+            android:layout_margin="5sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            />
+
+        <RadioButton
+            android:id="@+id/othersID"
+            android:layout_margin="5sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Others"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/enterButtonID"
+        android:layout_margin="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="enter"
+        android:textSize="50dp"
+        />
+
+    <TextView
+        android:id="@+id/resultShowID"
+        android:layout_margin="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:background="@android:color/holo_orange_light"
+        android:hint="-----??-----"
+        />
+
+
+</LinearLayout>

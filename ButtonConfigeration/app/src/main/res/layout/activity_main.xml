@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <!--
+    <Button
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="25dp" />
+
+    <ImageButton
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="@android:dimen/app_icon_size"
+        android:src="@drawable/picButton"
+        />
+    -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="50dp"
+        android:text=" Login "
+        android:textStyle="bold"
+        android:onClick="showMassage"
+        android:drawableBottom="@drawable/login"
+        />
+
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/logoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="50dp"
+        android:text=" Logout "
+        android:textStyle="bold"
+        android:onClick="showMassage"
+        android:drawableBottom="@drawable/logout"
+        />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text"
+        android:text=" Press Login/Logout"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

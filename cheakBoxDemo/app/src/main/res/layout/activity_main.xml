@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/black_forest_cake"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#6B3C3C"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="#A4F5ED"
+        android:text="Which desert(s) you prefer to take ??"
+        />
+
+    <CheckBox
+        android:id="@+id/ice_creamID"
+        android:layout_margin="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="Ice-cream"
+        android:textSize="30sp" />
+
+
+    <CheckBox
+        android:id="@+id/cakeID"
+        android:layout_margin="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="Cake"
+        android:textSize="30sp" />
+
+
+    <CheckBox
+        android:id="@+id/sweetID"
+        android:layout_margin="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="Sweets"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/buttonID"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:background="#D49E9E"
+        android:text="Place Order"
+        />
+    <TextView
+        android:id="@+id/orderListID"
+        android:layout_margin="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:background="#000"
+        android:textColorHint="#FFFFFF"
+        android:hint="    Your Order List   "
+
+        />
+
+</LinearLayout>
